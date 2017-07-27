@@ -1,7 +1,6 @@
 package com.tema1;
 
-public class Operacion {
-	private void calcular() {
-		System.out.println();
-	}
+@FunctionalInterface
+public interface Operacion {
+	double calcularPromedio(double num1, double num2);
 }

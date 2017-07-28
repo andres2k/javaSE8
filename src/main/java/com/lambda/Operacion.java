@@ -1,4 +1,4 @@
-package com.tema1;
+package com.lambda;
 
 @FunctionalInterface
 public interface Operacion {

@@ -1,4 +1,4 @@
-package com.tema1;
+package com.lambda;
 
 public class App {
 
@@ -18,7 +18,7 @@ public class App {
 		// Con JDK 1.8 y las funciones lambdas:
 		// Esto se puede solo cuando la interfaz es funcional, es decir tiene un
 		// solo metodo abstracto a implementar.
-		Operacion op = (double n1, double n2) -> (n1+n2)/2;
+		Operacion op = (double n1, double n2) -> (n1+n2)/2; 
 		System.out.println(op.calcularPromedio(2, 3));
 	}
 	
